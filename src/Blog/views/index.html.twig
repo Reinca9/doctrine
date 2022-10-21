@@ -1,0 +1,29 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+
+    <h1>Bienvenue sur le blog</h1>
+
+    <ul>
+        <li>
+            <a href="{{ path('blog.show', {slug: "azerty", id: 1}) }}">
+                Article 1
+            </a>
+        </li>
+        <li>
+            <a href="">
+                Article 2
+            </a>
+        </li>
+        <li>
+            <a href="">
+                Article 3
+            </a>
+        </li>
+        <li>
+            <a href="">
+                Article 4
+            </a>
+        </li>
+    </ul>
+{% endblock %}

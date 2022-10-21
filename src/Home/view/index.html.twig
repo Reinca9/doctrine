@@ -1,0 +1,6 @@
+{% extends 'layout.html.twig' %}
+    
+{% block body %}
+    <a href="{{ router.generateUrl('home.hello', {"name": "Jean"}) }}">GO</a>
+    <h1>Ceci est mon index</h1>
+{% endblock %}
